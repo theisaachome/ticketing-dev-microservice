@@ -1,0 +1,6 @@
+kubectl port-forward (podid) (4222) at localhost port:(4222) port at docker
+
+kubectl port-forward  nats-depl-7469fc45c6-6wbjq 4222:4222
+
+# debug
+kubectl port-forward  nats-depl-7469fc45c6-6wbjq 8222:8222
